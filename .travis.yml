@@ -4,10 +4,6 @@ python:
   - "3.6"
   - "3.7-dev"
 
-before_install:
-  - "pip install -U pip"
-  - "python setup.py install"
-  
 install:
   - pip install -r requirements.txt
   - pip install .
